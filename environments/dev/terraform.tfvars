@@ -1,5 +1,5 @@
 #Must be changed to your Azure Sub ID. Can be found in your Azure portal under Subscription
-subscription_id      = "30662edb-4cd5-4dd7-ba41-244d66d3a842"
+subscription_id      = "Your_Subscription_ID"
 location             = "Sweden Central"
 resource_group_name  = "rg-web-dev"
 vnet_name            = "vnet-web-dev"
@@ -16,6 +16,6 @@ future_subnet_prefixes = ["10.0.3.0/24"]
 
 admin_username      = "azureuser"
 #must be changed to your .ssh folder on your local machine. Should look like "C:/Users/*UserName*/.ssh/*YourSSHKey*"
-ssh_public_key_path = "C:/Users/Traaseth/.ssh/id_rsa_azure.pub"
+ssh_public_key_path = "C:/Users/*Username*/.ssh/*SSH_KEY*"
 #Must be changed to your devices public IP https://whatismyipaddress.com/
-my_public_ip        = "85.252.210.200"
+my_public_ip        = "Your_Public_IP"
